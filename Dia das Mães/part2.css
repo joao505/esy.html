@@ -1,0 +1,19 @@
+body{
+    background-color:black;/*adiciona uma cor de fundo */
+    background-image: url(img/Árvore\ Grande\ Amor\ Casal\ Grama\ Dia\ Dos\ Namorados\ Fundo\ Rosa\,\ Rosa\,\ Casal\,\ Grande\ árvore\ Imagem\ de\ plano\ de\ fundo\ para\ download\ gratuito.jpeg);/*ira definir a imagem*/
+    background-position: center;/*posição da imagem*/
+    background-attachment: fixed;/*deixa a imagem fixa*/
+    background-size: cover;/*define o tamanho da imagem*/
+    background-repeat: no-repeat;/*impede e ter mais de ima imagem repetida*/
+    display: flex;/*linhamentodos dos itens*/
+    justify-content: center;/*ajuda o display*/
+    flex-direction: column;
+}
+
+h1{
+    color: white;/*cora da letra*/
+    background-position: center;/*posição da frase*/
+    display: flex;
+    justify-content: center;
+    font: 25px, ;
+}
