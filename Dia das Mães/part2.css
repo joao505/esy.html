@@ -15,5 +15,5 @@ h1{
     background-position: center;/*posição da frase*/
     display: flex;
     justify-content: center;
-    font: 25px, ;
+    font: 25px, Arial; /*fonte*/
 }
