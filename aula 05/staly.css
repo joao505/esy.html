@@ -1,0 +1,24 @@
+.botao{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-image: url(img/JDM\ wallpaper.jpeg);/*imagem*/
+    background-position: center;/*posição da imagem*/
+    background-attachment: fixed;/*fixão da imagem*/
+    background-size: cover;/*tamanho*/
+    background-repeat: no-repeat;/*sem reptição de img*/
+    display: flex;/*alinhamento da img*/
+    justify-content: center;/*ajuda o display*/
+    flex-direction: column;
+}
+
+h1{
+    color: greenyellow;
+}
+.topicos{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
