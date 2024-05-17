@@ -4,33 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="code-style.css">
     <title>Document</title>
-    <style>
-        body{
-            background-color: #2d2E2E;
-            color: white;
-        }
-    </style>
 </head>
 <body>
     <code>
         <pre>
-// Definindo a classe Task para representar uma tarefa
-class Task {
-  constructor(description, priority) {
-    this.description = description;
-    this.priority = priority;
+<span class="comentario">// Definindo a classe Task para representar uma tarefa</span>
+<span class="function">class</span> <span class="numero">Task</span> {
+  <span class="function">constructor</span>(description, priority) {
+    <span class="propriedade">this</span>.<span class="propriedade">description</span> <span class="operacao">=</span> description;
+    <span class="propriedade">this</span>.<span class="propriedade">priority</span> <span class="operacao">=</span> priority;
   }
 }
 
-// Função para adicionar uma nova tarefa à lista
-function adicionarTarefa(descricao, prioridade) {
-  let novaTarefa = new Task(descricao, prioridade);
-  listaDeTarefas.push(novaTarefa);
-  console.log("Tarefa adicionada: " + descricao);
+<span class="comentario">// Função para adicionar uma nova tarefa à lista</span>
+<span class="function">function</span> <span class="operacao">adicionarTarefa</span>(descricao, prioridade) {
+  <span class="function">let</span> novaTarefa <span class="operacao">=</span> <span class="function">new</span> <span class="operacao">Task</span>(descricao, prioridade);
+  listaDeTarefas.<span class="operacao">push</span>(novaTarefa);
+  console.<span class="operacao">log</span>(<span class="string">"Tarefa adicionada: "</span> <span class="operacao">+</span> descricao);
 }
 
-// Função para remover uma tarefa da lista
+<span class="comentario">// Função para remover uma tarefa da lista</span>
 function removerTarefa(descricao) {
   for (let i = 0; i < listaDeTarefas.length; i++) {
     if (listaDeTarefas[i].description === descricao) {
@@ -42,7 +37,7 @@ function removerTarefa(descricao) {
   console.log("Tarefa não encontrada: " + descricao);
 }
 
-// Função para exibir todas as tarefas na lista
+<span class="comentario">// Função para exibir todas as tarefas na lista</span>
 function listarTarefas() {
   console.log("Lista de Tarefas:");
   listaDeTarefas.forEach((tarefa, index) => {
@@ -50,22 +45,22 @@ function listarTarefas() {
   });
 }
 
-// Array para armazenar as tarefas
+<span class="comentario">// Array para armazenar as tarefas</span>
 let listaDeTarefas = [];
 
-// Adicionando algumas tarefas de exemplo
+<span class="comentario">// Adicionando algumas tarefas de exemplo</span>
 adicionarTarefa("Lavar o carro", "Alta");
 adicionarTarefa("Fazer compras", "Média");
 adicionarTarefa("Estudar para o teste", "Alta");
 adicionarTarefa("Passear com o cachorro", "Baixa");
 
-// Listando todas as tarefas
+<span class="comentario">// Listando todas as tarefas</span>
 listarTarefas();
 
-// Removendo uma tarefa
+<span class="comentario">// Removendo uma tarefa</span>
 removerTarefa("Fazer compras");
 
-// Listando as tarefas atualizadas
+<span class="comentario">// Listando as tarefas atualizadas</span>
 listarTarefas();
         </pre>
     </code>

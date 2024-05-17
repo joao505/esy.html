@@ -1,0 +1,32 @@
+body{
+    background-color: #2d2E2E;
+    color: white;
+}
+
+.comentario {
+    color: gray;
+}
+
+.function {
+    color: #dd6fff;
+}
+
+.string {
+    color: #adff5c;
+}
+
+.numero {
+    color: #ffb04f;
+}
+
+.propriedade {
+    color: #ff5771;
+}
+
+.operacao {
+    color: #79c3ff;
+}
+
+pre {
+    padding: 5px;
+}
