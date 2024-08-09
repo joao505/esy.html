@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="login.css">
+
+  <script defer src="login.js"></script>
+  <link rel="shortcut icon" href="ícone IA.png" type="image/x-icon">
+  <title>Adivinhe I.A - Nome&reg;</title>
+</head>
+
+<body>
+
+  <h1>Adivinhe I.A🤖</h1>
+  <form class="login-form">
+    <div class="login__header">
+    <img src="ícone IA.png" alt="brain icon">
+    <input placeholder="Nome" class="login__input" title="Nome (4 caracteres)" id="name" type="text">
+    <h3>(Mínimo 4 caracteres)</h3>
+    <input placeholder="CPF" type="text" id="cpf" class="login__input2" pattern="[0-9]{11}" title="CPF (11 dígitos)">
+    <h3>(11 dígitos)</h3>
+    <button class="login__button" type="button" title="Jogar" id="login-btn" value="Jogar"  disabled>Jogar</button>
+
+  </form>
+
+</body>
+
+</html>

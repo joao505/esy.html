@@ -1,0 +1,110 @@
+body {
+  background-image: url(foto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+}
+
+.login-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  justify-content: center;
+}
+
+.login__header {
+  margin-top: -150px;
+  align-items: center;
+  display:flexbox;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: -200px;
+  background-color: #0d8dad79;
+  height: 640px;
+  width: 480px;
+  border-radius: 20px;
+}
+
+.login__header img {
+  width: 225px;
+  margin-top: 4%;
+}
+
+
+h1 {
+  font-size: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 3%;
+  color: rgb(214, 248, 21);
+  text-shadow: black 0.2em 0.2em 0.3em
+}
+
+.login__header h2 {
+  color: rgb(0, 241, 40);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:unset;
+    margin-top: -4%;
+    margin-bottom: 1%;
+    text-shadow: 1px 2px 2px black
+}
+
+.login__input {
+  margin-top: 4%;
+  border: 2px solid #333;
+  border-radius: 8px;
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 15px;
+  max-width: 300px;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login__input2 {
+  margin-top: -5%;
+  border: 2px solid #333;
+  border-radius: 8px;
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 15px;
+  max-width: 300px;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login__button {
+  margin-top: 1%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #00b5cc;
+  border: 3px solid #0a0d11;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2em;
+  max-width: 300px;
+  padding: 17px;
+  width: 100%;
+}
+
+.login__button:disabled {
+  background-color: #eee;
+  border: 2px solid #969595;
+  color: #aaa;
+  cursor: auto;
+}
+
+h3 {
+  color: rgb(0, 241, 201);
+  text-shadow: 2px 2px black;
+  margin-top: -3%;
+  border-bottom: -10px;
+  font-size: 27px;
+  font-family:Arial, Helvetica, sans-serif;
+}
